@@ -1,0 +1,52 @@
+<html>
+<head>
+    <title>bulb animation</title>
+</head>
+<body>
+     <img src="off-removebg-preview.png" id="bulb" width="407" height="613"><br>
+<button onclick="light(1)">
+      ON
+</button>
+<button onclick="light(0)">
+     OFF
+</button>
+<script>
+   function light(value){
+
+    var pic;
+       if(value == 0)
+      { pic = "off-removebg-preview.png";
+} else
+{
+     pic ="on_-removebg-preview.png";
+   }
+
+   document.getElementById('bulb').src = pic;
+   }
+     
+</script>
+</body>
+<style>
+
+
+
+    body{
+
+        background-color: black;
+    }
+
+    button{
+
+        padding:10px;
+        margin:60px;
+        background-color: yellow;
+        border-radius: 4px;
+        margin-left:30%;
+        margin-top: -10px;
+    }
+    img{
+        margin-left:36%;
+    }
+    </style>
+
+</html>
