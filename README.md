@@ -1,7 +1,7 @@
-# javascript-for-developer
+# FUNNY PROJECT
 
 
-#1.funny js project
+## 1.funny js
 
 when bulb off:
 
